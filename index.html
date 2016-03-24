@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Rapid Weather</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous">
+ </script>
+ <script src="rapid_weather.js" ></script>
+  
+  <link rel = "stylesheet" href = "rapid_weather.css">
+</head>
+<body>
+  <div id = "main" class = "container-fluid">
+    <div id = "header">
+      <h2 id = "title" >Rapid Weather<button id = "unit" class = "btn btn-warning" onclick = "convert()">FARENHEIT</button></h2>
+      
+    </div>
+    
+      <p id = "city"></p>
+      <!--<p id = "temperature">TEMPERATURE</p>-->
+      <p id = "latitude">LATITUDE</p>
+    <p id = "temperature"></p>    
+      <img class = "img img-rounded" src = "http://openweathermap.org/img/w/03n.png" id = "icon"/>
+  </div>
+    
+   
+</body>
+</html>

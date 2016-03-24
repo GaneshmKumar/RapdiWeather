@@ -1,0 +1,51 @@
+#main {
+  background: #3f51b5;
+  height: 100%;
+}
+
+#title{
+  padding: 20px 20px 20px 20px;
+  color: white;
+  font-family: product sans;
+  font-weight: bold;
+  font-size: 250%;
+}
+
+#latitude, #city
+{
+  font-family: product sans;
+  font-weight: bold;
+  font-size: 200%;
+  color: white;
+  padding-left: 350px;
+  padding-top: 20px;
+}
+#city
+{
+  padding-left: 550px;
+  padding-top: 50px;
+  font-size: 300%;
+}
+#temperature
+{
+  font-family: product sans;
+  font-weight: bold;
+  font-size: 350%;
+  color: white;
+  padding-top: 20px;
+  padding-left: 520px;
+}
+#icon
+{
+  padding-top: 35px;
+  padding-bottom: 82px;
+  padding-left: 630px;
+}
+#unit {
+  margin-left: 900px;
+  padding: 20px 40px 20px 40px;
+}
+#header{
+  background: #212121;
+  margin: -20px -15px 28px -15px;
+}
