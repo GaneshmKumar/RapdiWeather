@@ -28,7 +28,7 @@ function renderWeather(city) {
 
 function displayLocalWeather()
 {
-  $.getJSON("https://ipinfo.io/json").success(function(data) {
+  $.getJSON("http://ipinfo.io/json").success(function(data) {
       renderWeather(data.city);
   });
 }
