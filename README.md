@@ -1,9 +1,16 @@
-# RapdiWeather
+# Rapid Weather
 A Local Weather Map
 
-
-#API used
+## API used
 Open Weather Map   http://openweathermap.org
 
-#Created Using
-HTML, CSS, BOOTSTRAP, JAVASCRIPT, JQUERY
+## Created Using
+* HTML
+* CSS
+* BOOTSTRAP
+* JAVASCRIPT
+* JQUERY
+* Font Awesome
+
+## Preview
+<a href="https://ganeshmkumar.github.io/RapidWeather">Rapid Weather</a> 
