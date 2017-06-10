@@ -4,8 +4,6 @@ function renderWeather(city) {
     $.getJSON("http://api.openweathermap.org/data/2.5/weather?q=" + city + "&units=metric&APPID=061f24cf3cde2f60644a8240302983f2").success(function(data) {
       console.log(data.main["temp"]);
       console.log(data["name"]);
-      if(data["name"].toLowerCase() == city.toLowerCase())
-      {
         document.getElementById("city").innerHTML = city;
         cel = data.main["temp"];
         faren = Math.round(cel * (9/5) + 32);
@@ -16,13 +14,6 @@ function renderWeather(city) {
         document.getElementById("climate").innerHTML = climate;
         $('#error-info').hide();
         $('#weather-info').show();
-
-      }
-      else
-      {
-        $('#weather-info').hide();
-        $('#error-info').show(); 
-      }
     });
 }
 
