@@ -13,4 +13,4 @@ Open Weather Map   http://openweathermap.org
 * Font Awesome
 
 ## Preview
-<a href="https://ganeshmkumar.github.io/RapidWeather">Rapid Weather</a> 
+<a href="http://ganeshmkumar.github.io/RapidWeather">Rapid Weather</a> 
