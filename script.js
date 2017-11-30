@@ -1,7 +1,7 @@
 var cel = 0, faren = 0;
 
 function renderWeather(city) {
-    $.getJSON("http://api.openweathermap.org/data/2.5/weather?q=" + city + "&units=metric&APPID=061f24cf3cde2f60644a8240302983f2").success(function(data) {
+    $.ajax("http://api.openweathermap.org/data/2.5/weather?q=" + city + "&units=metric&APPID=061f24cf3cde2f60644a8240302983f2").done(function(data) {
       console.log(data.main["temp"]);
       console.log(data["name"]);
         document.getElementById("city").innerHTML = city;
@@ -19,7 +19,7 @@ function renderWeather(city) {
 
 function displayLocalWeather()
 {
-  $.getJSON("http://ipinfo.io/json").success(function(data) {
+  $.ajax("http://ipinfo.io/json").done(function(data) {
       renderWeather(data.city);
   });
 }
